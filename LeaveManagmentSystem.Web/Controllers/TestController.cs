@@ -8,7 +8,7 @@ namespace LeaveManagmentSystem.Web.Controllers
         public IActionResult Index()
         {
             var data = new testViewModel
-            {
+            { 
                 Name = "Rama",
                 DOB = new DateTime(2003,28,06)
             };
