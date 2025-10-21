@@ -12,7 +12,7 @@ namespace LeaveManagmentSystem.Web.Controllers
                 Name = "Rama",
                 DOB = new DateTime(2003,28,06)
             };
-           
+            
             return View(data);
         }
     }
